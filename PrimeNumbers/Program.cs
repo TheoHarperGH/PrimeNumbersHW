@@ -24,3 +24,4 @@ for (int Current = 0; Current < 50; Current++)
 
 //Used boolean instead of string "Yes" and "No" from pseudocode
 //also imo better variable names compared to "Count1" and "Count2"
+//Also 0 / 1 arent prime so excluded them
