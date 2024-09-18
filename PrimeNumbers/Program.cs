@@ -2,8 +2,6 @@
 
 using System.Transactions;
 
-int CheckCurrent = 1;
-
 Console.WriteLine("The first few prime numbers are : ");
 
 for (int Current = 0; Current < 50; Current++)
@@ -18,7 +16,7 @@ for (int Current = 0; Current < 50; Current++)
         }
         CheckCurrent++;
     }
-    if (Prime == true)
+    if (Prime & Current > 1)
     {
         Console.WriteLine(Current);
     }
